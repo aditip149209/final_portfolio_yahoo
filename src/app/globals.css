@@ -26,6 +26,14 @@
   border-radius: 3px;
 }
 
+.gradient-border-box{
+  border: 1px solid transparent;
+  background: 
+      linear-gradient(#13001B, #13001B) padding-box,
+      linear-gradient(90deg, #8a2be2, #ff00ff) border-box;
+  border-radius: 3px;
+}
+
 .gradient-border-button:hover{
   
   background: 
