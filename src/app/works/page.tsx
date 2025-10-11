@@ -9,8 +9,8 @@ const Work = () => {
     tags: "Node.js MySql Sequelize PostMan",
     title: "KaizenFit - Fitness Tracker",
     description: "Start tracking your fitness goals with KaizenFit",
-    linkText: "Live",
-    linkHref: "#"
+    linkText: "GitHub",
+    linkHref: "https://github.com/aditip149209/kaizenfit"
   },
   {
     tags: "Next.js",
@@ -20,39 +20,39 @@ const Work = () => {
     linkHref: "#"
   },
   {
-    tags: "Figma",
-    title: "Katha AI",
-    description: "Design system for Katha AI, a one of a kind reading experience",
-    linkText: "Figma",
-    linkHref: "#"
+    tags: "Rust gRPC Raft",
+    title: "Synapse",
+    description: "A network aware container runtime orchestrator",
+    linkText: "GitHub",
+    linkHref: "https://github.com/aditip149209/Synapse"
   },
   {
     tags: "FastAPI React.js Agno Langchain",
     title: "StrAIver",
     description: "Your personal CS tutor and companion",
-    linkText: "Live",
-    linkHref: "#"
+    linkText: "GitHub",
+    linkHref: "https://github.com/aditip149209/straiver-fin"
   },
   {
     tags: "Node.js Docker Redis Nginx K8",
     title: "SwalpaURL",
     description: "Give your verbose URLs short, wacky names",
-    linkText: "Live",
-    linkHref: "#"
+    linkText: "GitHub",
+    linkHref: "https://github.com/aditip149209/SwalpaURL"
   },
   {
     tags: "React.js Vite",
     title: "Artist Website",
     description: "A simple website for my art teacher",
     linkText: "Live",
-    linkHref: "#"
+    linkHref: "https://artbyvishwanath.vercel.app/"
   },
   {
     tags: "C++ Make AES-256",
     title: "Stegosaurus",
     description: "A steganography tool that hides and jumbles",
     linkText: "Github",
-    linkHref: "#"
+    linkHref: "https://github.com/ddpigeon/stegosaurus"
   }
 
 ];

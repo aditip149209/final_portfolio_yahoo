@@ -22,13 +22,13 @@ const Footer = () => {
             <div>
                 <span className="text-xl font-bold text-white"> Media</span>
                 <div className="flex flex-wrap">
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-2xl hover:text-purple-400 transition-colors">
+                <a href="https://github.com/aditip149209" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-2xl hover:text-purple-400 transition-colors">
                     <img src="Github.svg" alt="GitHub Icon" className="w-10 h-10" />
                 </a>
-                <a href="https://figma.com" target="_blank" rel="noopener noreferrer" aria-label="Figma" className="text-2xl hover:text-purple-400 transition-colors">
-                    <img src="Figma.svg" alt="Figma Icon" className="w-10 h-10" />
+                <a href="https://linkedin.com/in/aditi-pandey1932" target="_blank" rel="noopener noreferrer" aria-label="Figma" className="text-2xl hover:text-purple-400 transition-colors">
+                    <img src="Linkedin.svg" alt="Linkedin Icon" className="w-10 h-10" />
                 </a>
-                <a href="https://discord.com" target="_blank" rel="noopener noreferrer" aria-label="Discord" className="text-2xl hover:text-purple-400 transition-colors">
+                <a href="https://discord.com/users/852746966352789515" target="_blank" rel="noopener noreferrer" aria-label="Discord" className="text-2xl hover:text-purple-400 transition-colors">
                     <img src="Discord.svg" alt="Discord Icon" className="w-10 h-10" />
                 </a>
                 </div>

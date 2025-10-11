@@ -4,31 +4,31 @@ import Button from "./_components/ui/button";
 export default function Home() {
   const projectsData = [
   {
-    imageSrc: "/placeholder.png", // Replace with your image path
+    imageSrc: "/Gemini_Generated_Image_vi5ihdvi5ihdvi5i.png", // Replace with your image path
     tags: "React.js Agno Langchain FastAPI",
     title: "StrAIver",
     description: "Your very own CS companion",
-    liveLink: "#",
+    liveLink: "https://github.com/aditip149209/straiver-fin",
   },
   {
-    imageSrc: "/placeholder.png",
+    imageSrc: "/fitsum-admasu-oGv9xIl7DkY-unsplash.jpg",
     tags: "React.js MySql Node.js",
     title: "KaizenFit",
     description: "Your personal fitness companion",
-    liveLink: "#",
+    liveLink: "https://github.com/aditip149209/kaizenfit",
   },
   {
-    imageSrc: "/placeholder.png",
-    tags: "React.js Docker K8 Node.js",
-    title: "SwalpaURL",
-    description: "A not-so-boring URL shortener",
-    liveLink: "#",
+    imageSrc: "synapse.png",
+    tags: "Rust gRPC raft",
+    title: "Synapse",
+    description: "A network-aware container orchestrator",
+    liveLink: "https://github.com/aditip149209/Synapse",
   },
 ];
 
 const skillsData = {
-  Languages: ["TypeScript", "C++", "Rust", "Python", "JavaScript"],
-  Other: ["HTML", "CSS", "REST", "Docker", "K8", "Nginx"],
+  Languages: ["TypeScript/JavaScript", "C++", "Rust", "Python"],
+  Other: ["Docker", "K8", "Nginx", "AWS"],
   Databases: ["PostgreSQL", "MySQL"],
   Tools: ["VSCode", "Linux", "Figma", "Git"],
   Frameworks: ["React", "Django", "Express.js", "Next.js"],
@@ -44,9 +44,9 @@ const skillsData = {
           <div className="grid md:grid-cols-2 gap-16 items-center md:px-48">
             <div>  
                 <h1 className="text-4xl lg:text-5xl font-bold text-white leading-tight">
-                  Hi! I'm Aditi, a <span className="text-pink-500">software engineer</span> and a <span className="text-pink-500">full-stack developer</span>
+                  Hi! I'm Aditi, a <span className="text-pink-500">software engineer</span> passionate about building robust web applications from concept to deployment
                 </h1>
-                <p className="text-gray-400 mt-4">I craft responsive websites and scalable backends. Always eager to learn new technologies!</p>
+                <p className="text-gray-400 mt-4">I thrive on solving complex problems with elegant code, always exploring new technologies.</p>
                 <div className="mt-4">
                   <Button href="/contact">Contact Me!</Button>
                 </div>
@@ -62,11 +62,15 @@ const skillsData = {
                     height={400}
                     />
                 </div>
-                <div className="mt-4 border border-gray-700 p-2 text-sm w-fit mx-auto">
+                <div className="mt-4 border border-gray-700 p-2 text-sm w-fit mx-auto flex flex-col gap-2">
                   <div className="flex items-center gap-2">
                     <div className="w-3 h-3 bg-linear-65 from-purple-900 to-pink-500"></div>
-                    <span>Currently working on <span className="text-white">Portfolio</span></span>
+                    <span>Currently working on <span className="text-white">Synapse</span></span>
                   </div>
+                  {/* <div className="flex items-center gap-2">
+                    <div className="w-3 h-3 bg-linear-65 from-purple-900 to-pink-500"></div>
+                    <span>Upcoming summer intern at <span className="text-white">Sprinklr</span></span>
+                  </div> */}
                 </div>
               </div>
           </div>
@@ -83,14 +87,18 @@ const skillsData = {
               {projectsData.map(p => (
                 <div key={p.title} className="border border-gray-700">
                   {/* Placeholder for project image */}
-                  <div className="w-full h-48 bg-gray-800 flex items-center justify-center border-b border-gray-700">
-                    <span className="text-gray-500">{p.title} Image</span>
-                  </div>
+                  <div className="w-full h-48 bg-gray-800 border-b border-gray-700 overflow-hidden">
+  <img
+    src={p.imageSrc} // Replace with your image source
+    alt={p.title} // Add descriptive alt text
+    className="w-full h-full object-cover"
+  />
+</div>
                   <div className="p-4">
                     <p className="text-sm text-gray-500 mb-2">{p.tags}</p>
                     <h3 className="text-2xl font-bold text-white mb-2">{p.title}</h3>
                     <p className="text-gray-400 mb-4">{p.description}</p>
-                    <Button href={p.liveLink}>Live &lt;~&gt;</Button>
+                    <Button href={p.liveLink}>GitHub &lt;~&gt;</Button>
                   </div>
                 </div>
               ))}

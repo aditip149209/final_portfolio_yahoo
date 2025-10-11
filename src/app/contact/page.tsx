@@ -33,7 +33,7 @@ const Contact = () => {
                   <span>elysiumseeker2012</span>
                 </a>
                 {/* Email/LinkedIn Link */}
-                <a href="www.linkedin.com/in/aditi-pandey1932" className="flex items-center gap-4 text-gray-400 hover:text-white transition-colors">
+                <a href="https://linkedin.com/in/aditi-pandey1932" className="flex items-center gap-4 text-gray-400 hover:text-white transition-colors">
                   {/* <IconPlaceholder className="w-8 h-8"/> */}
                   <Image src="Linkedin.svg" alt="linkedin" width={24} height={24} />
                   <span>linkedin</span>
