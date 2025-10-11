@@ -9,7 +9,7 @@ const Contact = () => {
           <h2 className="text-4xl lg:text-5xl font-bold text-white mb-2">
             <span className="text-purple-500">/</span>contact
           </h2>
-          <p className="text-gray-400">Get in touch or shoot me an email directly at <a href="mailto:hello@aditi.dev" className="text-white hover:underline">hello@aditi.dev</a></p>
+          <p className="text-gray-400">Get in touch or shoot me an email directly at <a href="mailto:aditip149209@gmail.com" className="text-white hover:underline">aditip149209@gmail.com</a></p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-16">
