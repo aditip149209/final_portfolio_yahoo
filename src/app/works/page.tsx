@@ -20,7 +20,7 @@ const Work = () => {
     linkHref: "#"
   },
   {
-    tags: "Rust gRPC Raft",
+    tags: "Go gRPC Raft",
     title: "Synapse",
     description: "A network aware container runtime orchestrator",
     linkText: "GitHub",

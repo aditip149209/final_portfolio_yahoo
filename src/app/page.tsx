@@ -19,7 +19,7 @@ export default function Home() {
   },
   {
     imageSrc: "synapse.png",
-    tags: "Rust gRPC raft",
+    tags: "Go gRPC raft",
     title: "Synapse",
     description: "A network-aware container orchestrator",
     liveLink: "https://github.com/aditip149209/Synapse",
@@ -27,8 +27,8 @@ export default function Home() {
 ];
 
 const skillsData = {
-  Languages: ["TypeScript/JavaScript", "C++", "Rust", "Python"],
-  Other: ["Docker", "K8", "Nginx", "AWS"],
+  Languages: ["TypeScript/JavaScript", "C++", "Go", "Python"],
+  Other: ["Docker", "K8", "Nginx", "GCP"],
   Databases: ["PostgreSQL", "MySQL"],
   Tools: ["VSCode", "Linux", "Figma", "Git"],
   Frameworks: ["React", "Django", "Express.js", "Next.js"],

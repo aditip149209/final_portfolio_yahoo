@@ -5,8 +5,8 @@ import Card from "../_components/ui/card";
 
 const About = () => {
     const skills = {
-    Languages: ["TypeScript/JavaScript", "C++", "Rust", "Python" ],
-    Other: [ "DOCKER", "KB", "AWS", "Sequelize"],
+    Languages: ["TypeScript/JavaScript", "C++", "Go", "Python" ],
+    Other: [ "DOCKER", "KB", "GCP", "Sequelize"],
     Tools: ["VSCode", "Linux", "Figma", "Git"],
     Databases: ["PostgreSQL", "MySQL"],
     Frameworks: ["React", "Django", "Express.js", "Next.js"],
